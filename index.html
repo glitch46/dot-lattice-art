@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>Dot Lattice Art</title>
+  <style>
+    html, body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      background: #000;
+    }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    video {
+      display: block;
+      width: 100%;
+      height: 100vh;
+      height: 100dvh;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop playsinline preload="auto" aria-label="Animated dot-lattice artwork by 0xSero">
+    <source src="art.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
